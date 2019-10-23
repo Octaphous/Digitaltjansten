@@ -1,0 +1,15 @@
+> header {
+    background-image: url("/media/banner.png");
+    background-size: cover;
+    background-position: top right;
+    padding: 5rem 3rem 2rem 3rem;
+    border-radius: $corner-radius;
+
+    img {
+        width: 10rem;
+    }
+
+    @media screen and (max-width: $responsive-width) {
+        background-position: top left;
+    }
+}
